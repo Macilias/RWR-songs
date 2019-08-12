@@ -1,6 +1,7 @@
 export const selectSong = (song) => {
+	console.log('select song has been called with song', song);
 	return {
-		type: 'SOONG_SELECTED',
+		type: 'SONG_SELECTED',
 		payload: song,
 	}
 };
